@@ -1,0 +1,14 @@
+name: test of action
+on: 
+  push:
+    branches: 
+     - 'main'
+    paths: 
+     - 'hello-world-docker-action/actions.yml'
+  repository_dispatch:
+
+jobs:
+  test1:
+    uses: ./hello-world-docker-action/action.yml@main
+
+  
