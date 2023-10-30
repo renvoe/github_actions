@@ -5,7 +5,7 @@ on:
      - 'main'
     paths: 
      - 'hello-world-docker-action/actions.yml'
-  repository_dispatch:
+  workflow_dispatch:
 
 jobs:
   test1:
