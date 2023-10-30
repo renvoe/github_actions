@@ -14,8 +14,8 @@ jobs:
   Build:
     runs-on: ubuntu-latest
     steps:
-      - name:
-        run: echo "the job was triggered by ${{github.event_name }}
+      - name: test
+        run: echo "the job was triggered by ${{github.event_name }}"
       
   
     
